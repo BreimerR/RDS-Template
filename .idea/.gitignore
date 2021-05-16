@@ -9,3 +9,6 @@
 *.iml
 aws.xml
 misc.xml
+.name
+modules.xml
+vcs.xml
