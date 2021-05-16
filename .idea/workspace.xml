@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2c79cde-b0e6-435d-9e95-d025948151c3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JupyterTrust" id="f18d678c-75d5-4475-b5bb-0c46a63f6393" />
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="arn:aws:eks:eu-west-2:759281332355:cluster/android-eks-gitlab-main" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1sdLttNFL9T5OkCF1ngPvUuaag8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aws" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Terraform.AWS-Validate">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AWS-Apply" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_PROFILE" value="default" />
+          <entry key="TF_VAR_aws_region" value="eu-west-2" />
+          <entry key="TF_VAR_database_engine" value="mysql" />
+          <entry key="TF_VAR_database_password" value="your-secure-password" />
+          <entry key="TF_VAR_database_port" value="3306" />
+          <entry key="TF_VAR_database_user" value="admin" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="apply &quot;plan.out" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$/aws" />
+      <option name="PROGRAM_PARAMETERS" value="apply &quot;plan.out" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/aws" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="TF_VAR_aws_region" value="eu-west-2" />
+        <env name="AWS_PROFILE" value="default" />
+        <env name="TF_VAR_database_user" value="admin" />
+        <env name="TF_VAR_database_password" value="your-secure-password" />
+        <env name="TF_VAR_database_port" value="3306" />
+        <env name="TF_VAR_database_engine" value="mysql" />
+      </envs>
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="AWS-Plan" run_configuration_type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" />
+      </method>
+    </configuration>
+    <configuration name="AWS-Format" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_PROFILE" value="default" />
+          <entry key="TF_VAR_aws_region" value="eu-west-2" />
+          <entry key="TF_VAR_database_engine" value="mysql" />
+          <entry key="TF_VAR_database_password" value="your-secure-password" />
+          <entry key="TF_VAR_database_port" value="3306" />
+          <entry key="TF_VAR_database_user" value="admin" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="fmt" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$/aws" />
+      <option name="PROGRAM_PARAMETERS" value="fmt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/aws" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="TF_VAR_aws_region" value="eu-west-2" />
+        <env name="AWS_PROFILE" value="default" />
+        <env name="TF_VAR_database_user" value="admin" />
+        <env name="TF_VAR_database_password" value="your-secure-password" />
+        <env name="TF_VAR_database_port" value="3306" />
+        <env name="TF_VAR_database_engine" value="mysql" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="AWS-Get" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_PROFILE" value="default" />
+          <entry key="TF_VAR_aws_region" value="eu-west-2" />
+          <entry key="TF_VAR_database_engine" value="mysql" />
+          <entry key="TF_VAR_database_password" value="your-secure-password" />
+          <entry key="TF_VAR_database_port" value="3306" />
+          <entry key="TF_VAR_database_user" value="admin" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="get" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$/aws" />
+      <option name="PROGRAM_PARAMETERS" value="get" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/aws" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="TF_VAR_aws_region" value="eu-west-2" />
+        <env name="AWS_PROFILE" value="default" />
+        <env name="TF_VAR_database_user" value="admin" />
+        <env name="TF_VAR_database_password" value="your-secure-password" />
+        <env name="TF_VAR_database_port" value="3306" />
+        <env name="TF_VAR_database_engine" value="mysql" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="AWS-Init" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_PROFILE" value="default" />
+          <entry key="TF_VAR_aws_region" value="eu-west-2" />
+          <entry key="TF_VAR_database_engine" value="mysql" />
+          <entry key="TF_VAR_database_password" value="your-secure-password" />
+          <entry key="TF_VAR_database_port" value="3306" />
+          <entry key="TF_VAR_database_user" value="admin" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="init " />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$/aws" />
+      <option name="PROGRAM_PARAMETERS" value="init " />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/aws" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="TF_VAR_aws_region" value="eu-west-2" />
+        <env name="AWS_PROFILE" value="default" />
+        <env name="TF_VAR_database_user" value="admin" />
+        <env name="TF_VAR_database_password" value="your-secure-password" />
+        <env name="TF_VAR_database_port" value="3306" />
+        <env name="TF_VAR_database_engine" value="mysql" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="AWS-Plan" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_PROFILE" value="default" />
+          <entry key="TF_VAR_aws_region" value="eu-west-2" />
+          <entry key="TF_VAR_database_engine" value="mysql" />
+          <entry key="TF_VAR_database_password" value="your-secure-password" />
+          <entry key="TF_VAR_database_port" value="3306" />
+          <entry key="TF_VAR_database_user" value="admin" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="plan" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$/aws" />
+      <option name="PROGRAM_PARAMETERS" value="plan" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/aws" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="TF_VAR_aws_region" value="eu-west-2" />
+        <env name="AWS_PROFILE" value="default" />
+        <env name="TF_VAR_database_user" value="admin" />
+        <env name="TF_VAR_database_password" value="your-secure-password" />
+        <env name="TF_VAR_database_port" value="3306" />
+        <env name="TF_VAR_database_engine" value="mysql" />
+      </envs>
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="AWS-Validate" run_configuration_type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" />
+      </method>
+    </configuration>
+    <configuration name="AWS-Validate" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_PROFILE" value="default" />
+          <entry key="TF_VAR_aws_region" value="eu-west-2" />
+          <entry key="TF_VAR_database_engine" value="mysql" />
+          <entry key="TF_VAR_database_password" value="your-secure-password" />
+          <entry key="TF_VAR_database_port" value="3306" />
+          <entry key="TF_VAR_database_user" value="admin" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="validate" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$/aws" />
+      <option name="PROGRAM_PARAMETERS" value="validate" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/aws" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="TF_VAR_aws_region" value="eu-west-2" />
+        <env name="AWS_PROFILE" value="default" />
+        <env name="TF_VAR_database_user" value="admin" />
+        <env name="TF_VAR_database_password" value="your-secure-password" />
+        <env name="TF_VAR_database_port" value="3306" />
+        <env name="TF_VAR_database_engine" value="mysql" />
+      </envs>
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="AWS-Format" run_configuration_type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_PROFILE" value="default" />
+          <entry key="TF_VAR_aws_region" value="eu-west-2" />
+          <entry key="TF_VAR_database_engine" value="mysql" />
+          <entry key="TF_VAR_database_password" value="your-secure-password" />
+          <entry key="TF_VAR_database_port" value="3306" />
+          <entry key="TF_VAR_database_user" value="admin" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="TF_VAR_aws_region" value="eu-west-2" />
+        <env name="AWS_PROFILE" value="default" />
+        <env name="TF_VAR_database_user" value="admin" />
+        <env name="TF_VAR_database_password" value="your-secure-password" />
+        <env name="TF_VAR_database_port" value="3306" />
+        <env name="TF_VAR_database_engine" value="mysql" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Terraform.AWS-Init" />
+      <item itemvalue="Terraform.AWS-Get" />
+      <item itemvalue="Terraform.AWS-Format" />
+      <item itemvalue="Terraform.AWS-Validate" />
+      <item itemvalue="Terraform.AWS-Plan" />
+      <item itemvalue="Terraform.AWS-Apply" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2c79cde-b0e6-435d-9e95-d025948151c3" name="Default Changelist" comment="" />
+      <created>1621197737793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621197737793</updated>
+      <workItem from="1621197740769" duration="4640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="210" width="1084" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621203182768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="413" y="210" width="1084" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1621203182768" />
+    <state x="629" y="340" width="641" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621202801222">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="629" y="340" width="641" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1621202801222" />
+    <state x="648" y="233" width="849" height="481" key="EnvironmentVariablesDialog" timestamp="1621203181802">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="648" y="233" width="849" height="481" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1621203181802" />
+    <state x="438" y="115" width="1024" height="841" key="SettingsEditor" timestamp="1621197771375">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="438" y="115" width="1024" height="841" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1621197771375" />
+    <state x="618" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1621202724626">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="618" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1621202724626" />
+  </component>
+</project>
